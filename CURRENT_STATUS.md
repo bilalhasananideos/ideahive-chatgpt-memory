@@ -24,7 +24,7 @@ Claude/Opus research is separate. Never present Claude findings as independent C
 
 - Private AUTO_SAVE_PROTOCOL.md created and read back.
 - Private MASTER_PROJECT_CONTEXT.md updated and read back.
-- Public protocol is being synchronized with the private source.
+- Public protocol synchronized with the private source and published in verified GitHub commit 026eecb.
 - Bootstrap instructions require the assistant to initiate saving after meaningful completed work without waiting for a reminder.
 - Direct access to the owner's Mac is not assumed.
 - Exact Terminal commands and read-back verification are required when direct writing is unavailable.
@@ -33,21 +33,20 @@ Claude/Opus research is separate. Never present Claude findings as independent C
 
 The public memory mirror and immutable-commit bootstrap have been verified.
 
-The proactive auto-save protocol is locally saved in the private source and is being synchronized into the public mirror.
+The proactive auto-save protocol is saved in the private source and published in the public mirror. The current status and handoff checkpoint updates remain pending GitHub publication.
 
-Previously verified GitHub commit:
-8034edaffab18cc52d2c399e83cf60e4ffa852f6
+Latest previously verified GitHub commit:
+026eecb8b2eac6b961ca2ed9494ab13420ce679a
 
-The updated public revision is not yet committed or pushed.
+The current status and handoff updates are saved locally but have not yet been committed or pushed.
 
 ## 5. Pending tasks
 
-1. Review the synchronized public files.
-2. Commit and push the approved revision.
-3. Verify the new remote commit and raw files.
-4. Run a practical task-completion test in a fresh ChatGPT conversation without telling it to save.
-5. Verify that ChatGPT proactively prepares research updates, status updates and handoffs.
-6. Continue independent ChatGPT research from private working records when appropriate.
+1. Commit and push the three reviewed public checkpoint files.
+2. Verify the new remote commit and raw files.
+3. Run a practical task-completion test in a fresh ChatGPT conversation without telling it to save.
+4. Verify that ChatGPT proactively prepares research updates, status updates and handoffs.
+5. Continue independent ChatGPT research from private working records when appropriate.
 
 ## 6. Privacy and access restrictions
 
@@ -59,6 +58,6 @@ The updated public revision is not yet committed or pushed.
 
 ## 7. Exact next action
 
-Review and publish the synchronized proactive auto-save instructions. Then run the no-reminder auto-save test.
+Commit and push the three reviewed public checkpoint files: CURRENT_STATUS.md, LATEST_HANDOFF.md and the dated handoff. Then verify the remote publication and run the no-reminder auto-save test.
 
 END OF STATUS
