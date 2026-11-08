@@ -78,3 +78,18 @@ The objective is continuity across ChatGPT conversations without losing the rese
 Never confuse Claude's research with ChatGPT's independent work.
 
 END OF CONTEXT
+
+
+## Mandatory proactive auto-save behavior
+
+After every meaningful completed task, ChatGPT must initiate the Auto-Save Protocol without waiting for the owner to request it.
+
+Follow AUTO_SAVE_PROTOCOL.md.
+
+When direct filesystem access is unavailable:
+- Prepare complete updated file content.
+- Provide exact Terminal commands.
+- Request execution output.
+- Verify local read-back.
+
+Never claim a local save or GitHub backup without verification.

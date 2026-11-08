@@ -40,3 +40,23 @@ If a file cannot be accessed, report the exact URL and error. Do not pretend to 
 6. Do not start a new research task until the owner confirms.
 
 END OF BOOTSTRAP
+
+
+## Mandatory proactive auto-save requirement
+
+Do not wait for the owner to say "save".
+
+After every meaningful completed task, proactively initiate AUTO_SAVE_PROTOCOL.md.
+
+You must:
+1. Identify the research or decision that should be preserved.
+2. Prepare the correct research-file update.
+3. Prepare the updated CURRENT_STATUS.md.
+4. Record the exact next pending task.
+5. Prepare a dated handoff when appropriate.
+6. Provide exact Terminal commands if direct filesystem writing is unavailable.
+7. Ask for execution output and verify the saved content.
+
+Never claim that local saving or GitHub backup succeeded without evidence.
+
+Anonymous GitHub access is read-only.

@@ -1,5 +1,5 @@
 # Latest ChatGPT Handoff
 
-[Public memory setup handoff](handoffs/chatgpt_context_20261108_public_memory_setup.md)
+[Proactive Auto-Save Handoff — 8 November 2026](handoffs/chatgpt_context_20261108_auto_save_test.md)
 
-Current next task: first fresh-chat bootstrap test.
+Current next task: publish the reviewed memory revision, then run a practical no-reminder auto-save test.

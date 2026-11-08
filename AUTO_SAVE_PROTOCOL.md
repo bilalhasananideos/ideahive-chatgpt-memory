@@ -1,30 +1,80 @@
-# ChatGPT Memory — Mandatory Save and Handoff Protocol
+# ChatGPT Mandatory Proactive Auto-Save Protocol
 
-## Source of truth
-The local `chatgpt/` folder inside the IdeaHive Studio working directory is the primary working copy. This dedicated repository is a separate GitHub mirror for anonymous ChatGPT read access.
+## 1. Automatic trigger
 
-## After each meaningful completed task
-1. Save research in the correct ChatGPT-specific file/folder.
-2. Update `CURRENT_STATUS.md` with the date, completed work, unfinished work, exact next action and relevant paths.
-3. Update `LATEST_HANDOFF.md` and create a dated handoff in `handoffs/` when a checkpoint or chat switch requires it.
-4. Read the saved file back and verify the contents before saying it is saved.
+The assistant must initiate this protocol after every meaningful completed task, without waiting for the user to say "save".
 
-## Keep these states separate
-- **Local save:** verified only after the local file has been written and read back.
-- **GitHub backup:** verified only after the intended commit is pushed and the remote branch/commit or raw file is checked.
+Meaningful work includes:
+- Completed research or analysis.
+- Important findings or evidence.
+- Strategic conclusions and decisions.
+- Completed deliverables.
+- Changes to the project plan or workflow.
 
-A local save does not mean GitHub backup succeeded.
+Minor conversation and temporary brainstorming do not automatically require permanent saving.
 
-## No-login limitation
-Anonymous access to a public GitHub repository is read-only. ChatGPT can read public raw files, but cannot commit or push anonymously. For write-back, either use an explicitly connected/authenticated GitHub integration or have the owner run the reviewed Git commands locally.
+## 2. Assistant responsibilities
 
-## Public-repository safety
-Before the first push and every later addition, inspect staged files. Never publish passwords, tokens, API keys, cookies, browser profiles, identity documents, private financial/medical information, or confidential material the owner has not approved for public access.
+After meaningful work:
 
-## Verification wording
-- Say `local save verified` only after read-back.
-- Say `GitHub backup verified` only after confirming the remote commit/file.
-- Otherwise say `draft prepared`, `staged locally`, or `not yet pushed` as appropriate.
+1. Identify what should be preserved.
+2. Select the appropriate ChatGPT research file.
+3. Prepare the complete updated content.
+4. Update CURRENT_STATUS.md.
+5. Record completed work, unfinished work and the exact next action.
+6. Update or create a dated handoff when appropriate.
+7. Provide exact Terminal commands for local saving.
+8. Ask for command output and verify the saved content.
 
-## Handoff requirements
-Every dated handoff must include: project objective, ChatGPT-only completed work, exact checkpoint, pending work, exact next action, relevant file paths, restrictions, local-save status and GitHub-backup status.
+The assistant must initiate this process without being reminded.
+
+## 3. Local saving
+
+The original local ChatGPT memory is the primary working copy.
+
+ChatGPT must not claim it has directly written to the user's Mac unless it actually has authorized filesystem write access.
+
+When direct access is unavailable, it must provide complete file content and exact Terminal commands.
+
+## 4. GitHub backup
+
+GitHub backup is separate from local saving.
+
+The assistant must:
+- Review files before publication.
+- Check for confidential information.
+- Prepare exact Git commands.
+- Ask for approval before publishing.
+- Verify the remote commit after push.
+
+Never claim a GitHub backup succeeded without verification.
+
+## 5. Save states
+
+Use these exact distinctions:
+
+- Draft prepared: content written in the response.
+- Local save pending: user has not executed the command.
+- Local save verified: file was read back successfully.
+- GitHub backup pending: local changes are not remotely confirmed.
+- GitHub backup verified: remote commit/file has been confirmed.
+
+## 6. Incomplete work
+
+Never mark unfinished research as completed.
+
+Record:
+- Current progress.
+- Missing evidence.
+- Remaining tasks.
+- Exact next action.
+
+## 7. Chat switching
+
+Before switching chats:
+- Update CURRENT_STATUS.md.
+- Create a dated handoff.
+- Update the latest handoff pointer.
+- Provide a continuation prompt.
+
+END OF PROTOCOL

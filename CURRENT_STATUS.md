@@ -1,35 +1,64 @@
 # IdeaHive Studio — ChatGPT Current Status
 
+Version: 1.2
 Last updated: 8 November 2026
 
-## Independent research track
-ChatGPT research is separate from Claude/Opus research.
+## 1. Independent research track
 
-## Completed memory setup
-- Dedicated local mirror created.
-- Public-safe memory files prepared.
-- Public privacy scan completed.
-- Initial GitHub commit and push successful.
-- Verified commit: 0ab1b62.
-- All seven raw files returned HTTP 200 without login.
+ChatGPT maintains independent research, evidence, analysis, conclusions and decisions.
 
-## Research status
-Preliminary ChatGPT research material exists in private local records.
-Detailed research and evidence are intentionally excluded from this public mirror.
+Claude/Opus research is separate. Never present Claude findings as independent ChatGPT findings.
 
-## Exact current checkpoint
-Public memory is available for anonymous reading.
+## 2. Completed memory setup
 
-## Next pending task
-Run the first fresh ChatGPT bootstrap test.
+- Dedicated private ChatGPT memory folder created.
+- Separate public-safe GitHub mirror created.
+- Public privacy review and local-path sanitization completed.
+- Initial GitHub commit 0ab1b62 verified.
+- Updated checkpoint 8034eda verified.
+- All seven initial raw-file URLs returned HTTP 200.
+- Two immutable-commit bootstrap tests successfully accessed all six required documents.
+- Claude/Opus and ChatGPT research separation was correctly understood.
 
-The new chat must identify its successfully read files, exact checkpoint, next task and access limitations.
+## 3. Proactive auto-save
 
-## Separate pending research
-Detailed market research and competitor analysis remain in the private ChatGPT research records.
+- Private AUTO_SAVE_PROTOCOL.md created and read back.
+- Private MASTER_PROJECT_CONTEXT.md updated and read back.
+- Public protocol is being synchronized with the private source.
+- Bootstrap instructions require the assistant to initiate saving after meaningful completed work without waiting for a reminder.
+- Direct access to the owner's Mac is not assumed.
+- Exact Terminal commands and read-back verification are required when direct writing is unavailable.
 
-## Restrictions
-- Never mix Claude and ChatGPT findings.
-- Never invent private research.
-- Never overwrite original research without permission.
-- Track local save and GitHub backup separately.
+## 4. Current checkpoint
+
+The public memory mirror and immutable-commit bootstrap have been verified.
+
+The proactive auto-save protocol is locally saved in the private source and is being synchronized into the public mirror.
+
+Previously verified GitHub commit:
+8034edaffab18cc52d2c399e83cf60e4ffa852f6
+
+The updated public revision is not yet committed or pushed.
+
+## 5. Pending tasks
+
+1. Review the synchronized public files.
+2. Commit and push the approved revision.
+3. Verify the new remote commit and raw files.
+4. Run a practical task-completion test in a fresh ChatGPT conversation without telling it to save.
+5. Verify that ChatGPT proactively prepares research updates, status updates and handoffs.
+6. Continue independent ChatGPT research from private working records when appropriate.
+
+## 6. Privacy and access restrictions
+
+- Detailed competitor research remains private.
+- Do not publish confidential evidence or business decisions without approval.
+- Anonymous GitHub access is read-only.
+- Local save and GitHub backup must be verified separately.
+- Never invent unavailable private research.
+
+## 7. Exact next action
+
+Review and publish the synchronized proactive auto-save instructions. Then run the no-reminder auto-save test.
+
+END OF STATUS
