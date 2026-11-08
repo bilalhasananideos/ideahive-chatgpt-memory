@@ -31,22 +31,18 @@ Claude/Opus research is separate. Never present Claude findings as independent C
 
 ## 4. Current checkpoint
 
-The public memory mirror and immutable-commit bootstrap have been verified.
+The public memory mirror, immutable-commit bootstrap and proactive auto-save checkpoint have been published and independently verified on GitHub.
 
-The proactive auto-save protocol is saved in the private source and published in the public mirror. The current status and handoff checkpoint updates remain pending GitHub publication.
+The protocol, current status and dated handoff are available in the public mirror. The initial checkpoint publication was verified at commit:
+eef9ac86b4970adc923687650b3c9b8f77ef0d4b
 
-Latest previously verified GitHub commit:
-026eecb8b2eac6b961ca2ed9494ab13420ce679a
-
-The current status and handoff updates are saved locally but have not yet been committed or pushed.
+The next action is the practical no-reminder auto-save test in a fresh ChatGPT conversation.
 
 ## 5. Pending tasks
 
-1. Commit and push the three reviewed public checkpoint files.
-2. Verify the new remote commit and raw files.
-3. Run a practical task-completion test in a fresh ChatGPT conversation without telling it to save.
-4. Verify that ChatGPT proactively prepares research updates, status updates and handoffs.
-5. Continue independent ChatGPT research from private working records when appropriate.
+1. Run a practical task-completion test in a fresh ChatGPT conversation without telling it to save.
+2. Verify that ChatGPT proactively prepares research updates, status updates and handoffs.
+3. Continue independent ChatGPT research from private working records when appropriate.
 
 ## 6. Privacy and access restrictions
 
@@ -58,6 +54,6 @@ The current status and handoff updates are saved locally but have not yet been c
 
 ## 7. Exact next action
 
-Commit and push the three reviewed public checkpoint files: CURRENT_STATUS.md, LATEST_HANDOFF.md and the dated handoff. Then verify the remote publication and run the no-reminder auto-save test.
+Run a practical task-completion test in a fresh ChatGPT conversation without telling it to save.
 
 END OF STATUS

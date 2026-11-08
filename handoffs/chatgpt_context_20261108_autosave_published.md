@@ -8,13 +8,13 @@ Date: 8 November 2026
 - Immutable commit bootstrap tests passed.
 - Proactive Auto-Save Protocol created and synchronized.
 - Private status and dated handoff saved and verified.
-- Public Current Status updated locally.
+- Public Current Status, Latest Handoff pointer and dated handoff published and independently verified at commit eef9ac86b4970adc923687650b3c9b8f77ef0d4b.
 
 ## Current checkpoint
-Latest previously verified GitHub commit:
-026eecb8b2eac6b961ca2ed9494ab13420ce679a
+Initial checkpoint publication commit:
+eef9ac86b4970adc923687650b3c9b8f77ef0d4b
 
-The latest public status update is prepared locally but not yet pushed.
+The public status, Latest Handoff pointer and dated handoff were published and independently fetched from GitHub at this commit.
 
 ## Next pending task
 Run a practical research task in a fresh ChatGPT conversation without telling it to save.
@@ -33,6 +33,6 @@ Verify whether the assistant initiates:
 - Local saving and GitHub backup remain separate.
 
 Private local checkpoint: saved and read back.
-Public GitHub backup of the newest status: pending.
+Public GitHub backup of this checkpoint: published and independently verified at commit eef9ac86b4970adc923687650b3c9b8f77ef0d4b.
 
 END OF HANDOFF
