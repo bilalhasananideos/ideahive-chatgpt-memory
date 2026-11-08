@@ -8,7 +8,7 @@ Date: 8 November 2026
 - Immutable commit bootstrap tests passed.
 - Proactive Auto-Save Protocol created and synchronized.
 - Private status and dated handoff saved and verified.
-- Public Current Status, Latest Handoff pointer and dated handoff published and independently verified at commit eef9ac86b4970adc923687650b3c9b8f77ef0d4b.
+- Initial versions of Public Current Status, Latest Handoff pointer and dated handoff were published at commit eef9ac86b4970adc923687650b3c9b8f77ef0d4b; subsequent wording corrections were published in a follow-up commit on main.
 
 ## Current checkpoint
 Initial checkpoint publication commit:
@@ -33,6 +33,6 @@ Verify whether the assistant initiates:
 - Local saving and GitHub backup remain separate.
 
 Private local checkpoint: saved and read back.
-Public GitHub backup of this checkpoint: published and independently verified at commit eef9ac86b4970adc923687650b3c9b8f77ef0d4b.
+Public GitHub backup: published and independently verified. The current main branch is authoritative for the latest corrected version; resolve its remote HEAD for the exact commit.
 
 END OF HANDOFF
